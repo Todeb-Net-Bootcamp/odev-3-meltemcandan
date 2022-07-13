@@ -8,6 +8,10 @@
 
 # Son Teslim Tarihi: 15/07/2022 23:00
 
+# Proje Açıklaması
+
+Filmler ve bilgilerini içeren database örneğidir. Bu kapsamda filmin kategorileri, yönetmenleri ve oyuncular tabloları oluşturulup aralarında bağlantılar kurulmuştur.
+
 # Fonksiyonların Kullanımı
 
 Select dbo.Fnc_AvgYear() as AvgYear;
@@ -17,3 +21,4 @@ Select * from dbo.Fnc_GetFilmInfoByActorId(1);
 # Stored Procedure Kullanımı
 
 EXEC dbo.AddActor 'Meltem', 'Candan';
+
